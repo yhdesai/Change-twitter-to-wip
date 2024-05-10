@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect Twitter to WIP",
+  "version": "1.0",
+  "description": "Automatically redirects Twitter URLs to WIP",
+  "permissions": ["webRequest", "webRequestBlocking", "*://*.twitter.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
